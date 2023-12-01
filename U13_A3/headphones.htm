@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<title>Mobile World Station</title>
+
+<style>
+body {font-family:  Arial, Helvetica, Sans-serif;
+background-color: #D4E6F1  ;
+width:850px;
+margin-right:auto;
+margin-left:auto;}
+h1 {color: #2980B9 ;}
+p {color: #1F618D  ;}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+
+
+</style>
+
+
+</head>
+<body>
+
+<img src="images/banner.png" alt="Mobile World Station" >
+
+<h1></h1>
+<p></p>
+
+<h1></h1>
+
+<style>
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+</style>
+</head>
+<body>
+
+<div class="scrollmenu">
+  <a href="index.htm">Home</a>
+  <a href="accessories%20.htm">Accessories</a>
+  <a href="iphone.htm">Iphone</a>
+  <a href="samsung.htm">Samsung</a>
+  <a href="services.htm">Services</a>
+  <a href="sim.htm">Sim</a> 
+  <a href="watches.htm">Watches</a>
+</div>
+</body>
+
+<script>
+
+
+//Time of day message script- by javascriptkit.com
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+//Credit must stay intact for use
+
+var Digital=new Date()
+var hours=Digital.getHours()
+//Configure message below to your own.
+if (hours>=5&&hours<=11) //MESSAGE FOR MORNING
+document.write('<b>Welcome to our site. Good morning visitor.</b>')
+else if (hours==12) //MESSAGE FOR NOON
+document.write('<b>It is high noon. Thanks for dropping by!</b>')
+else if (hours>=13&&hours<=17) //MESSAGE FOR AFTERNOON
+document.write('<b>Good afternoon, and thanks for visiting.</b>')
+else if (hours>=18&&hours<=20) //MESSAGE FOR EVENING (6pm-8pm)
+document.write('<b>Good evening. Hope you\'re enjoying the gentle breeze</b>')
+else if (hours>=21&&hours<=11) //MESSAGE FOR NIGHT (9pm-11pm)
+document.write('<b>Glad to see you this time of the night.</b>')
+else //MESSAGE FOR LATE NIGHT, EARLY MORNING (12pm-4am)
+document.write('<b>Wow, thanks for choosing to visit our site over sleep!</b>')
+</script>
+
+<p>This free script provided by
+<a href="http://javascriptkit.com">JavaScript
+Kit</a></p>
+
+
+<h2>Mobile World Station</h2>
+
+
+
+<p>Welcome to Mobile World Station.This webpage only offers headphones.</p>
+
+
+
+<h2>Some headphone examples of what the website offers</h2>
+<table>
+  <tr>
+    <th>Beats Headphones</th>
+    <th style="width:10%">Price</th>
+  </tr>
+  <tr>
+    <td><a href="https://www.beatsbydre.com/uk/headphones/solo3-wireless/MX472/citrus-red">Beats Red</td>
+    <td><p>£199.95</p></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.beatsbydre.com/uk/headphones/solo3-wireless/">Beats Original</td>
+    <td><p>£199.95</p></td>
+  </tr>
+<tr>
+    <td><a href="https://www.beatsbydre.com/uk/headphones/solo3-wireless/">Beats Pink/White</td>
+    <td><p>£199.95</p></td>
+  </tr>
+<tr>
+    <td><a href="https://www.beatsbydre.com/uk/headphones/solo3-wireless/">Beats Silver</td>
+    <td><p>£199.95</p></td>
+  </tr>
+<tr>
+    <td><a href="https://www.beatsbydre.com/uk/headphones/solo3-wireless/">Beats Golden</td>
+    <td><p>£199.95</p></td>
+  </tr>
+<tr>
+    <td><a href="https://www.beatsbydre.com/uk/headphones/studio-pro-wireless/">Beats Navy</td>
+    <td><p>£349.99</p></td>
+  </tr>
+
+</table>
+
+
+<h2>Here are the best priced beats headphones in the market industry.</h2>
+
+<style>
+body {
+  font-family: Arial;
+  margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(127, 179, 213);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #D4E6F1;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+<h2 style="text-align:center">Slideshow Gallery</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="images/beats_1.jpg" style="width:30%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="images/beats_2.jpg"  style="width:30%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="images/beats_3.jpg" style="width:30%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="images/beats_4.jpg" style="width:30%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="images/beats_5.jpg" style="width:30%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="images/beats_6.jpg" style="width:30%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" img src="images/beats_1.jpg"  style="width:100%" onclick="currentSlide(1)" alt="Beats Fully Red">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/beats_2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Beats Originals">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/beats_3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Beats Silver">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/beats_4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Beats Pink/White">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/beats_5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Beats All Gold">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="images/beats_6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Beats Navy">
+    </div>
+  </div>
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+</body>
+</html>
+
+
+<h2>To give feedback send e-mail to 22120322@cambria.ac.uk</h2>
+<form action="mailto:angelkos7@gmail.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<input type="text" name="comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+
+
+</form>
+
+</body>
+</html>
+
+
+
+
+
+<p>Website produced by:Angel Kostadinov</p>
+
+</body>
+</html>
